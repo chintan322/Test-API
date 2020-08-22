@@ -1,0 +1,9 @@
+<div style="cursor: pointer;" class="hvr-grow">
+  <h4 class="list-group-item-heading">{{ product.name }}</h4>
+  <p class="list-group-item-text">{{ product.description }}</p>
+  <p class="list-group-item-text">{{ product.price }}</p>
+
+  <span class="pull-right">
+    <img [src]="product.image" alt="{{ product.name }}" class="img-responsive" style="max-height: 50px;">
+  </span>
+</div>
